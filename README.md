@@ -6,14 +6,11 @@ BIOS files collection for [RetroPie](https://retropie.org.uk) (current updated f
 
     Supported bios files for the libretro cores can be scanned using the official Bios.dat from Libretro-database
 
-The file `Bios.dat` was renamed to [System.dat](https://raw.githubusercontent.com/libretro/libretro-database/master/dat/System.dat) in the repository [RetroArch Database](https://github.com/libretro/libretro-database), and in this repository the file `bios.dat` is a copy of it.
+The file `Bios.dat` was renamed to [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat) in the repository [RetroArch Database](https://github.com/libretro/libretro-database), and in this repository the file `bios.dat` is a copy of it.
 
 `bios.dat` says it lists `System, firmware, or BIOS files used by libretro`. With google's help files were collected from the web and saved into the folder `bios/` and md5 hash values were verified. May copying all these bios files into your RetroPie's bios folder helps to run your games!
 
-## Missing BIOS Files
-
-Currentlly 189 files are listed in `bios.dat`. 188 were found already and 1 are missing. Maybe you could help to find them out.
-
-| Platform | filename    | size    | crc      | md5                              | sha1                                     |
-| -------- | ----------- | ------- | -------- | -------------------------------- | ---------------------------------------- |
-| ScummVM  | scummvm.zip | 9523360 | a93f1c4b | a17e0e0150155400d8cced329563d9c8 | 718c1a00d38e0810a1ad0ffde79f73447f846f01 |
+| Platform | filename    | verified | size    | md5                              | sha1                                     |
+| -------- | ----------- | -------- | ------- | -------------------------------- | ---------------------------------------- |
+| ScummVM  | scummvm.zip | 🆗        | 9523360 | a17e0e0150155400d8cced329563d9c8 | 718c1a00d38e0810a1ad0ffde79f73447f846f01 |
+|          |             |          |         |                                  |                                          |
