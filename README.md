@@ -2,21 +2,13 @@
 
 BIOS files collection for [RetroPie](https://retropie.org.uk) (current updated for RetroPie version 4.6).
 
-Mentioned in [RetroPie's Docs](https://retropie.org.uk/docs/) - [BIOS section](https://retropie.org.uk/docs/BIOS/):
+[RetroPie's Docs](https://retropie.org.uk/docs/BIOS/) says:
 
     Supported bios files for the libretro cores can be scanned using the official Bios.dat from Libretro-database
 
-The file `Bios.dat` was renamed to [System.dat](https://raw.githubusercontent.com/libretro/libretro-database/master/dat/System.dat)
-in the repository [RetroArch Database](https://github.com/libretro/libretro-database), and in this repository the file `bios.dat` is a copy of it.
+The file `Bios.dat` was renamed to [System.dat](https://raw.githubusercontent.com/libretro/libretro-database/master/dat/System.dat) in the repository [RetroArch Database](https://github.com/libretro/libretro-database), and in this repository the file `bios.dat` is a copy of it.
 
-`bios.dat` mentioned this:
-    System, firmware, or BIOS files used by libretro.
-
-I don't know, but maybe all the files listed in `bios.dat` is BIOS for RetroPie.
-
-With google's help files were collected from the web and saved into the folder `bios/` and md5 hash values were verified.
-
-May saving these bios files into your RetroPie's bios folder helps to run your games!
+`bios.dat` says it lists `System, firmware, or BIOS files used by libretro`. With google's help files were collected from the web and saved into the folder `bios/` and md5 hash values were verified. May copying all these bios files into your RetroPie's bios folder helps to run your games!
 
 ## Missing BIOS Files
 
