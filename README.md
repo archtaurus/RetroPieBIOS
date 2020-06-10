@@ -12,9 +12,8 @@ The file `Bios.dat` was renamed to [System.dat](https://raw.githubusercontent.co
 
 ## Missing BIOS Files
 
-Currentlly 189 files are listed in `bios.dat`. 187 were found already and 2 are missing. Maybe you could help to find them out.
+Currentlly 189 files are listed in `bios.dat`. 188 were found already and 1 are missing. Maybe you could help to find them out.
 
-| Platform       | filename    | size    | crc      | md5                              | sha1                                     |
-| -------------- | ----------- | ------- | -------- | -------------------------------- | ---------------------------------------- |
-| Wolfenstein 3D | ecwolf.pk3  | 178755  | 26dc3fba | c011b428819eea4a80b455c245a5a04d | 9259b87edfe9b9f6d0749788a75a6ccf158f50aa |
-| ScummVM        | scummvm.zip | 9523360 | a93f1c4b | a17e0e0150155400d8cced329563d9c8 | 718c1a00d38e0810a1ad0ffde79f73447f846f01 |
+| Platform | filename    | size    | crc      | md5                              | sha1                                     |
+| -------- | ----------- | ------- | -------- | -------------------------------- | ---------------------------------------- |
+| ScummVM  | scummvm.zip | 9523360 | a93f1c4b | a17e0e0150155400d8cced329563d9c8 | 718c1a00d38e0810a1ad0ffde79f73447f846f01 |
