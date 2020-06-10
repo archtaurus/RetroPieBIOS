@@ -1,6 +1,6 @@
 # RetroPieBIOS
 
-BIOS files collection for [RetroPie](https://retropie.org.uk) (currentlly updated for **version 4.6**).
+Completed collection of BIOS files for [RetroPie](https://retropie.org.uk) (currentlly updated for **version 4.6**).
 
 [RetroPie's Docs](https://retropie.org.uk/docs/BIOS/) says:
 
