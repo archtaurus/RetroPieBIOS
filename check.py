@@ -9,10 +9,9 @@ with open('bios.dat') as f:
 
 for filename, size, crc, md5, sha1 in roms_info:
     local_file_path = f'bios/{filename}'
-    download = '✅'
-    verified = '🆗'
-    if os.path.exists(local_file_path):
-        download = '✅'
-        if hashlib.md5(open(local_file_path, 'rb').read()).hexdigest() == md5:
-            verified = '🆗'
-    print(f'| | [{filename}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename}) | {download} | {verified} |{size} | {crc} | {md5} | {sha1} |')
+    download = os.path.exists(local_file_path)
+    verified = download and hashlib.md5(open(local_file_path, 'rb').read()).hexdigest() == md5
+    print(
+        f'| | [{filename}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename}) | '
+        f'{"🆗" if download else "💔"} | {"🆗" if verified else "💔"} | {size} | {md5} |'
+    )
