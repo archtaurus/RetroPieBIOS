@@ -38,7 +38,7 @@ with open('System.dat') as data_file:
             md5_verified = '🆗' if md5 == local_md5 else '💔'
             sha1_verified = '🆗' if sha1 == local_sha1 else '💔'
             print(
-                f'| {platform:46s} | {filename:26s} '
+                f'| {platform:46s} | [{filename}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename})'
                 f'| {size:7s} {size_verified} '
                 f'| {crc} {crc_verified} '
                 f'| {md5} {md5_verified} '
