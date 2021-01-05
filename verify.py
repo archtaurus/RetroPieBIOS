@@ -10,10 +10,14 @@ rom_line_pattern = re.compile(r'rom \( name "?(.+?)"? size (\d+) crc (\w+) md5 (
 
 
 def crc32(filename):
-    prev = 0
-    for line in open(filename, 'rb'):
-        prev = zlib.crc32(line, prev)
-    return '%x' % (prev & 0xFFFFFFFF)
+    hash = 0
+    with open(filename, 'rb') as f:
+        while True:
+            buffer = f.read(65536)
+            if not buffer:
+                break
+            hash = zlib.crc32(buffer, hash)
+    return '%08x' % (hash & 0xFFFFFFFF)
 
 
 with open('System.dat') as data_file:
