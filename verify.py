@@ -14,7 +14,7 @@ with open('System.dat') as data_file:
             platform = comment_line_pattern.search(line).group(1).strip()
         elif line.startswith('	rom'):
             filename, size, crc, md5, sha1 = rom_line_pattern.search(line).groups()
-            local_path = f'bios/{filename}'
+            local_path = f'BIOS/{filename}'
             local_exists = os.path.exists(local_path)
             local_data = open(local_path, 'rb').read() if local_exists else b''
             local_size = str(len(local_data))
@@ -26,7 +26,7 @@ with open('System.dat') as data_file:
             md5_verified = '🆗' if md5 == local_md5 else '💔'
             sha1_verified = '🆗' if sha1 == local_sha1 else '💔'
             filenamea = filename.replace(r"(", r"\(").replace(r")", r"\)")
-            download_link = f'[{filenamea}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename.replace(" ", "%20")})'
+            download_link = f'[{filenamea}](https://github.com/archtaurus/RetroPieBIOS/raw/master/BIOS/{filename.replace(" ", "%20")})'
             print(
                 f'| {platform:46s} | {download_link:119s} |'
                 f' {size:7s} {size_verified} |'
