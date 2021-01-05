@@ -4,8 +4,6 @@ import re
 import zlib
 import hashlib
 
-"PLATFORM,BIOS FILE,SIZE,MD5,SHA1,STATUS"
-
 platform = 'unknown'
 comment_line_pattern = re.compile(r'comment "(.+)"')
 rom_line_pattern = re.compile(r'rom \( name "?(.+?)"? size (\d+) crc (\w+) md5 (\w+) sha1 (\w+) \)')
