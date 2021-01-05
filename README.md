@@ -1,4 +1,4 @@
-# Collection of BIOS for RetroPie
+# RetroPie BIOS Collection
 
 This repository is the BIOS collection for [RetroPie](https://retropie.org.uk) (currentlly updated for **version 4.7.1**).
 
