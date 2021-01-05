@@ -8,31 +8,17 @@ platform = 'unknown'
 comment_line_pattern = re.compile(r'comment "(.+)"')
 rom_line_pattern = re.compile(r'rom \( name "?(.+?)"? size (\d+) crc (\w+) md5 (\w+) sha1 (\w+) \)')
 
-
-def crc32(filename):
-    hash = 0
-    with open(filename, 'rb') as f:
-        while True:
-            buffer = f.read(65536)
-            if not buffer:
-                break
-            hash = zlib.crc32(buffer, hash)
-    return '%08x' % (hash & 0xFFFFFFFF)
-
-
 with open('System.dat') as data_file:
     for line in data_file:
-        # or change platform with comment line
         if line.startswith('	comment'):
             platform = comment_line_pattern.search(line).group(1).strip()
-        # parse data in rom line
         elif line.startswith('	rom'):
             filename, size, crc, md5, sha1 = rom_line_pattern.search(line).groups()
             local_path = f'bios/{filename}'
             local_exists = os.path.exists(local_path)
             local_data = open(local_path, 'rb').read() if local_exists else b''
             local_size = str(len(local_data))
-            local_crc = crc32(local_path)
+            local_crc = '%08x' % (zlib.crc32(local_data) & 0xFFFFFFFF)
             local_md5 = hashlib.md5(local_data).hexdigest() if local_exists else ''
             local_sha1 = hashlib.sha1(local_data).hexdigest() if local_exists else ''
             size_verified = '🆗' if size == local_size else '💔'
@@ -40,9 +26,9 @@ with open('System.dat') as data_file:
             md5_verified = '🆗' if md5 == local_md5 else '💔'
             sha1_verified = '🆗' if sha1 == local_sha1 else '💔'
             filenamea = filename.replace(r"(", r"\(").replace(r")", r"\)")
-            download_link = f'https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename.replace(" ", "%20")}'
+            download_link = f'[{filenamea}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename.replace(" ", "%20")})'
             print(
-                f'| {platform:} | [{filenamea}]({download_link}) |'
+                f'| {platform:46s} | {download_link:119s} |'
                 f' {size:7s} {size_verified} |'
                 f' {crc} {crc_verified} |'
                 f' {md5} {md5_verified} |'
