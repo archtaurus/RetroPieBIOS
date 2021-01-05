@@ -37,11 +37,14 @@ with open('System.dat') as data_file:
             crc_verified = '🆗' if crc == local_crc else '💔'
             md5_verified = '🆗' if md5 == local_md5 else '💔'
             sha1_verified = '🆗' if sha1 == local_sha1 else '💔'
+            filenamea = filename.replace(r"(", r"\(").replace(r")", r"\)")
+            download_link = f'https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename.replace(" ", "%20")}'
             print(
-                f'| {platform:46s} | [{filename}](https://github.com/archtaurus/RetroPieBIOS/raw/master/bios/{filename})'
-                f'| {size:7s} {size_verified} '
-                f'| {crc} {crc_verified} '
-                f'| {md5} {md5_verified} '
-                f'| {sha1} {sha1_verified} |')
+                f'| {platform:} | [{filenamea}]({download_link}) |'
+                f' {size:7s} {size_verified} |'
+                f' {crc} {crc_verified} |'
+                f' {md5} {md5_verified} |'
+                f' {sha1} {sha1_verified} |'
+            )
         else:
             platform = 'unknown'
