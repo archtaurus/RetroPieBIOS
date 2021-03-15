@@ -182,7 +182,7 @@ game (
 	rom ( name BS-X.bin size 1048576 crc f51f07a0 md5 fed4d8242cfbed61343d53d48432aced sha1 604556b2e62860af18db5a77f2956ebc75450020 )
 	rom ( name "BS-X (En).bin" size 1048576 crc 347e1c4e md5 33b62505da6ca4525e3839db4e1a7bca sha1 f3cdff70de5d0f5c52ca3a8f46588b863d48b8ec )
 	rom ( name "BS-X (En) (DRM-Free).bin" size 1048576 crc 8c573c7e md5 4ed9648505ab33a4daec93707b16caba sha1 7996bd1c01b99800e0d5d34beff93db283784864 )
-	
+
 	comment "Nintendo - SuFami Turbo"
 	rom ( name STBIOS.bin size 262144 crc 9b4ca911 md5 d3a44ba7d42a74d3ac58cb9c14c6a5ca sha1 ef86ea192eed03d5c413fdbbfd46043be1d7a127 )
 
@@ -319,7 +319,7 @@ game (
 	rom ( name tc2068-0.rom size 16384 crc bf44ec3f md5 55d462fccc6c536037404ef4ced08bec sha1 1446cb2780a9dedf640404a639fa3ae518b2d8aa )
 	rom ( name tc2068-1.rom size 8192 crc ae16233a md5 575d203c6e15e679fba0b73f854ec7a2 sha1 7e265a2c1f621ed365ea23bdcafdedbc79c1299c )
 	rom ( name trdos.rom size 16384 crc 10751aba md5 0da70a5d2a0e733398e005b96b7e4ba6 sha1 21695e3f2a8f796386ce66eea8a246b0ac44810c )
-	
+
 	comment "SNK - NeoGeo CD"
 	rom ( name 000-lo.lo size 131072 crc 5a86cff2 md5 fc7599f3f871578fe9a0453662d1c966 sha1 5992277debadeb64d1c1c64b0a92d9293eaf7e4a )
 	rom ( name front-sp1.bin size 524288 crc cac62307 md5 5c2366f25ff92d71788468ca492ebeca sha1 53bc1f283cdf00fa2efbb79f2e36d4c8038d743a )
@@ -356,7 +356,7 @@ game (
 	rom ( name "scph9002(7502).bin" size 524288 crc 318178bf md5 b9d9a0286c33dc6b7237bb13cd46fdee sha1 8d5de56a79954f29e9006929ba3fed9b6a418c1d )
 
 	comment "Sony - PlayStation Portable"
-	rom ( name ppge_atlas.zim size 784968 crc 1e8709c1 md5 a93fc411c1ce7d001a2a812643c70085 sha1 02dcd1d5928c13f0305f3af356f935fee11debde )
+	rom ( name ppge_atlas.zim size 870970 crc 135cc904 md5 b6852dcaff7c24222b18d70c9cdbc4a8 sha1 ba9313506f77e7f3ddee87584911bc15ef172db1 )
 
 	comment "Wolfenstein 3D"
 	rom ( name ecwolf.pk3 size 178755 crc 26dc3fba md5 c011b428819eea4a80b455c245a5a04d sha1 9259b87edfe9b9f6d0749788a75a6ccf158f50aa )
