@@ -1,0 +1,26 @@
+{
+    "name": "retropie-bios-collection",
+    "version": "4.7.1",
+    "description": "This repository is the BIOS collection for [RetroPie](https://retropie.org.uk).",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/archtaurus/RetroPieBIOS.git"
+    },
+    "keywords": [
+        "retropie",
+        "bios"
+    ],
+    "author": "Zhao Xin <7176466@qq.com> (https://www.haoohaoo.com/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/archtaurus/RetroPieBIOS/issues"
+    },
+    "homepage": "https://github.com/archtaurus/RetroPieBIOS#readme",
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "jest": "^26.6.3"
+    }
+}

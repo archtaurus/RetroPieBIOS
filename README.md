@@ -1,14 +1,21 @@
 # RetroPie BIOS Collection
 
-This repository is the BIOS collection for [RetroPie](https://retropie.org.uk) (currentlly updated for **version 4.7.1**).
+This repository is the BIOS collection for [RetroPie](https://retropie.org.uk).
+
+All files have been verified in agreement with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat)(Ver.2020-11-02) from [Libretro-database](https://github.com/libretro/libretro-database).
+
+You may double check them by running:
+
+```
+npm install
+npm test
+```
 
 ## Usage
 
-Copy all files in `BIOS` folder into your RetroPie's `BIOS` folder and enjoy your games! 😉
+Copy all files from `BIOS` folder into your RetroPie's `BIOS` folder and enjoy your games! 😉
 
 ## BIOS List
-
-All file verified in agreement with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat)(Ver.2020-11-02) from [Libretro-database](https://github.com/libretro/libretro-database). You may run `python verify.py` for double check.
 
 | PLATFORM                                       | BIOS FILE (download link)                                                                                               | SIZE      | CRC        | MD5                                | SHA1                                       |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------- | ---------- | ---------------------------------- | ------------------------------------------ |
