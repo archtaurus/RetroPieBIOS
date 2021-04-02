@@ -1,5 +1,7 @@
 # RetroPie BIOS Collection
 
+[![ALL BIOS FILES MD5SUM CHECK](https://github.com/archtaurus/RetroPieBIOS/actions/workflows/all-bios-files-md5sum-check.yml/badge.svg)](https://github.com/archtaurus/RetroPieBIOS/actions/workflows/all-bios-files-md5sum-check.yml)
+
 This repository is the BIOS collection for [RetroPie](https://retropie.org.uk).
 
 All files have been verified in agreement with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat)(Ver.2020-11-02) from [Libretro-database](https://github.com/libretro/libretro-database).
