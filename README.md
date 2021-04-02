@@ -8,9 +8,9 @@ All BIOS files have been verified in agreement with [System.dat](https://github.
 
 You may double check them by running:
 
-```
+``` shell
 npm install
-npm test
+npm run test
 ```
 
 ## Usage
