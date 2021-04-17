@@ -12,6 +12,8 @@ Copy all files from `BIOS` folder into your RetroPie's `BIOS` folder and enjoy y
 
 ## BIOS List
 
+<div style="font-family:mono; font-size:9pt;">
+
 | PLATFORM                                       | BIOS FILE (download link)                                                                                               | SIZE      | CRC        | MD5                                | SHA1                                       |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------- | ---------- | ---------------------------------- | ------------------------------------------ |
 | 3DO Company, The - 3DO                         | [3do_arcade_saot.bin](https://github.com/archtaurus/RetroPieBIOS/raw/master/BIOS/3do_arcade_saot.bin)                   | 524288  🆗 | b832da9a 🆗 | 8970fc987ab89a7f64da9f8a8c4333ff 🆗 | 520d3d1b5897800af47f92efd2444a26b7a7dead 🆗 |
@@ -274,6 +276,8 @@ Copy all files from `BIOS` folder into your RetroPie's `BIOS` folder and enjoy y
 | Sony - PlayStation Portable                    | [ppge_atlas.zim](https://github.com/archtaurus/RetroPieBIOS/raw/master/BIOS/ppge_atlas.zim)                             | 784968  🆗 | 1e8709c1 🆗 | a93fc411c1ce7d001a2a812643c70085 🆗 | 02dcd1d5928c13f0305f3af356f935fee11debde 🆗 |
 | Wolfenstein 3D                                 | [ecwolf.pk3](https://github.com/archtaurus/RetroPieBIOS/raw/master/BIOS/ecwolf.pk3)                                     | 178755  🆗 | 26dc3fba 🆗 | c011b428819eea4a80b455c245a5a04d 🆗 | 9259b87edfe9b9f6d0749788a75a6ccf158f50aa 🆗 |
 | ScummVM                                        | [scummvm.zip](https://github.com/archtaurus/RetroPieBIOS/raw/master/BIOS/scummvm.zip)                                   | 9523360 🆗 | a93f1c4b 🆗 | a17e0e0150155400d8cced329563d9c8 🆗 | 718c1a00d38e0810a1ad0ffde79f73447f846f01 🆗 |
+
+</div>
 
 You may install `NodeJS` and double check them by running:
 
