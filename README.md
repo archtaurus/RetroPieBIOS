@@ -282,6 +282,13 @@ npm install
 npm test
 ```
 
+You may install `NodeJS` and double check them by running:
+
+``` shell
+npm install
+npm test
+```
+
 ## Links
 
 - [RetroPie's Docs](https://retropie.org.uk/docs/BIOS/)
