@@ -2,7 +2,7 @@ clrmamepro (
 	name "System"
 	description "System"
 	comment "System, firmware, or BIOS files used by libretro."
-	version "2020-11-02"
+	version "2020.11.2"
 	author "libretro"
 	homepage "http://github.com/libretro/libretro-database"
 	url "http://github.com/libretro/libretro-database"
@@ -65,7 +65,7 @@ game (
 	rom ( name tos.img size 196608 crc d3c32283 md5 c1c57ce48e8ee4135885cee9e63a68a2 sha1 735793fdba07fe8d5295caa03484f6ef3de931f5 )
 
 	comment "Coleco - ColecoVision"
-	rom ( name coleco.rom size 8192 crc 3aa93ef3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
+	rom ( name colecovision.rom size 8192 crc 3aa93ef3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
 
 	comment "Commodore - Amiga"
 	rom ( name kick34005.A500 size 262144 crc c4f0f55f md5 82a21c1890cae844b3df741f2762d48d sha1 891e9a547772fe0c6c19b610baf8bc4ea7fcb785 )
@@ -84,6 +84,9 @@ game (
 	rom ( name freej2me-lr.jar size 552042 crc 96a1babf md5 ccd92e7156ce2f0ce14c88ffb68a16eb sha1 fb231192894e2fd17a5799fbbdf86a4696951bce )
 	rom ( name freej2me-sdl.jar size 552043 crc 5cca0f35 md5 4da74084fc1b1bd3d776ed8d3ee648de sha1 78f1f41d55efc6b8d81e99c1d9d75248b3f83dc2 )
 	rom ( name freej2me.jar size 552039 crc ffb98ffa md5 29a92d0867da2917275b7c6c805d256f sha1 7d738042268e4ffd0aae8e85e05dd28bce761d1f )
+
+	comment "MacII"
+	rom ( name MacII.ROM md5 66223be1497460f1e60885eeb35e03cc )
 
 	comment "Magnavox - Odyssey2"
 	rom ( name o2rom.bin size 1024 crc 8016a315 md5 562d5ebf9e030a40d6fabfc2f33139fd sha1 b2e1955d957a475de2411770452eff4ea19f4cee )
@@ -143,7 +146,7 @@ game (
 
 	comment "Nintendo - Gameboy"
 	rom ( name dmg_boot.bin size 256 crc 59c8598e md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
-	rom ( name gb_boot.bin size 256 crc 59c8598e md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
+	rom ( name gb_bios.bin size 256 crc 59c8598e md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
 
 	comment "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
@@ -356,7 +359,7 @@ game (
 	rom ( name "scph9002(7502).bin" size 524288 crc 318178bf md5 b9d9a0286c33dc6b7237bb13cd46fdee sha1 8d5de56a79954f29e9006929ba3fed9b6a418c1d )
 
 	comment "Sony - PlayStation Portable"
-	rom ( name ppge_atlas.zim size 870970 crc 135cc904 md5 b6852dcaff7c24222b18d70c9cdbc4a8 sha1 ba9313506f77e7f3ddee87584911bc15ef172db1 )
+	rom ( name ppge_atlas.zim size 666530 crc 7b57fa78 md5 866855cc330b9b95cc69135fb7b41d38 sha1 30a33f3651f8e1b0967a5dfe6ff714baebcce41a url "https://github.com/hrydgard/ppsspp/blob/master/assets/ppge_atlas.zim" )
 
 	comment "Wolfenstein 3D"
 	rom ( name ecwolf.pk3 size 178755 crc 26dc3fba md5 c011b428819eea4a80b455c245a5a04d sha1 9259b87edfe9b9f6d0749788a75a6ccf158f50aa )
