@@ -1,6 +1,6 @@
 {
     "name": "retropie-bios-collection",
-    "version": "4.7.1",
+    "version": "4.7.3",
     "description": "This repository is the BIOS collection for [RetroPie](https://retropie.org.uk).",
     "scripts": {
         "test": "jest"
