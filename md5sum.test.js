@@ -19,7 +19,7 @@ lines1.forEach((line) => {
     if (match)
         allBIOS.push({ filename: match[1].replace(/\"/g, ""), md5: match[4] });
 });
-const filePath2 = path.join(__dirname, "NotinSystem.dat");
+const filePath2 = path.join(__dirname, "MoreBIOS.dat");
 const data2 = fs.readFileSync(filePath2).toString();
 const lines2 = data2.split("\n");
 lines2.forEach((line) => {
