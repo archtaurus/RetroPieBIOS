@@ -1,0 +1,20 @@
+comment "Neo Geo Pocket (Color)"
+	rom ( name fbneo/ngp.zip size 73934 crc 546d4778 md5 505a71c75aa742abd0caf9c7da606f8d sha1 19f2fd48ad9952deb2e42255f4360e66f6511181 )
+
+comment "Fairchild Channel F"
+	rom ( name fbneo/channelf.zip size 2705 crc 332807d9 md5 2f2f8de3827ae1faf2495e497ca95232 sha1 1cb23b462b990241013deb4b5e07ce741af28267 )
+
+comment "TI-99"
+	rom ( name TI-994A.ctg size 32702 crc a092207d md5 412ecbf991edcb68edd0e76c2caa4a59 sha1 4e764ab67dfcbee8adc5b7d98e7b2926a008b9d8 )
+
+comment "Dragon"
+	rom ( name d32.rom size 16384 crc e3879310 md5 3420b96031078a4ef408cad7bf21a33f sha1 f2dab125673e653995a83bf6b793e3390ec7f65a )
+
+comment "Macintosh"
+	rom ( name vMac.ROM size 131072 crc b2102e8e md5 8a41e0754ffd1bb00d8183875c55164c sha1 7d2f808a045aa3a1b242764f0e2c7d13e288bf1f )
+
+comment "Coco"
+	rom ( name bas13.rom size 8192 crc d8f4d15e md5 c2fc43556eb6b7b25bdf5955bd9df825 sha1 28b92bebe35fa4f026a084416d6ea3b1552b63d3 )
+	rom ( name extbas11.rom size 8192 crc a82a6254 md5 21070aa0496142b886c562bf76d7c113 sha1 ad927fb4f30746d820cb8b860ebb585e7f095dea )
+	rom ( name coco3.rom size 32258 crc fa4a513d md5 42d0962b862f861ff4f74582c2454934 sha1 a5c7cf21f041155368e28850cd16d4ef1d6efb6b )
+	rom ( name coco3p.rom size 32768 crc ff050d80 md5 4ae57e5a8e7494e5485446fefedb580b sha1 631e383068b1f52a8f419f4114b69501b21cf379 )
