@@ -387,3 +387,6 @@ You may install `NodeJS` and double check them by running:
 npm install
 npm test
 ```
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=archtaurus/RetroPieBIOS&type=Date)](https://star-history.com/#archtaurus/RetroPieBIOS&Date)
