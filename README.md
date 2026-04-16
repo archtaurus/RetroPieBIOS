@@ -4,15 +4,17 @@
 
 This repository is the BIOS collection for [RetroPie](https://retropie.org.uk).
 
-All BIOS files have been verified in agreement with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat)(v1.19.0) from [Libretro-database](https://github.com/libretro/libretro-database).
+All BIOS files have been verified in agreement with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat) (v1.19.0) from [Libretro-database](https://github.com/libretro/libretro-database).
 
 Just copy all files from `BIOS` folder into your RetroPie's `BIOS` folder and enjoy your games! 😉
 
 NOTE:
-1. All "Commodore - Amiga" bios roms is not included in this collection
-2. Dinothawr.zip is not found (all found version's md5sum is not match)
+1. "Commodore - Amiga" BIOS ROMs are excluded from this collection.
+2. Dinothawr.zip is missing (MD5 mismatch with available versions).
 
 ## MD5SUM Check result
+
+> ⚠️ 13 files are skipped (Amiga BIOS ROMs and Dinothawr.zip are not included in this collection)
 
 ```shell
 PASS ./md5sum.test.js
