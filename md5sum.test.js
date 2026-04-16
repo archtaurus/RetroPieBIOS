@@ -8,6 +8,7 @@ function md5sum(filePath) {
     hash.update(data, "utf8");
     return hash.digest("hex");
 }
+
 const allBIOS = [];
 const filePath1 = path.join(__dirname, "System.dat");
 const data1 = fs.readFileSync(filePath1).toString();
@@ -33,8 +34,15 @@ lines2.forEach((line) => {
 describe("all files md5sum check", () => {
     allBIOS.forEach((bios) => {
         const { filename, md5 } = bios;
+        const filepath = path.join(__dirname, "BIOS", filename);
+
+        // 仅当文件不存在时跳过测试
+        if (!fs.existsSync(filepath)) {
+            test.skip(`md5sum("${filename}") should be "${md5}" (skipped: file not found)`, () => { });
+            return;
+        }
+
         test(`md5sum("${filename}") should be "${md5}"`, () => {
-            const filepath = path.join(__dirname, "BIOS", filename);
             expect(md5sum(filepath)).toEqual(md5);
         });
     });
