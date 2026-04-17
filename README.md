@@ -8,11 +8,18 @@ All BIOS files have been verified in agreement with [System.dat](https://github.
 
 Just copy all files from `BIOS` folder into your RetroPie's `BIOS` folder and enjoy your games! 😉
 
-NOTE:
-1. "Commodore - Amiga" BIOS ROMs are excluded from this collection.
-2. Dinothawr.zip is missing (MD5 mismatch with available versions).
+## Legal Disclaimer
 
-## MD5SUM Check result
+The BIOS files in this repository are provided for **educational and archival purposes only**.
+
+You are responsible for:
+- Ensuring you own the original hardware from which these BIOS were extracted
+- Complying with all applicable copyright laws in your jurisdiction
+- Removing these files if requested by the copyright holder
+
+No copyright infringement is intended. If you are a rights holder and object to the inclusion of certain files, please open an issue for removal.
+
+## Md5sum Check Result
 
 > ⚠️ 13 files are skipped (Amiga BIOS ROMs and Dinothawr.zip are not included in this collection)
 
@@ -431,6 +438,12 @@ Snapshots:   0 total
 Time:        1.149 s, estimated 2 s
 Ran all test suites.
 ```
+
+## Missing Files
+
+This collection excludes copyrighted Amiga Kickstart ROMs. Please source them legally if needed.
+
+Dinothawr.zip is missing (MD5 mismatch with available versions).
 
 ## Star History
 
