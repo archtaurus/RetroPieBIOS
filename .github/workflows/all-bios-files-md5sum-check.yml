@@ -2,6 +2,9 @@ name: ALL BIOS FILES MD5SUM CHECK
 
 on: push
 
+permissions:
+  contents: read
+
 jobs:
     all-bios-files-md5sum-check:
         runs-on: ubuntu-latest
