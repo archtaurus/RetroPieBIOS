@@ -486,4 +486,4 @@ Maintaining this BIOS collection takes time and effort. If it helps you, conside
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=archtaurus/RetroPieBIOS&type=Date)](https://star-history.com/#archtaurus/RetroPieBIOS&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=archtaurus/RetroPieBIOS&type=Date)](https://star-history.dera.page/#archtaurus/RetroPieBIOS&Date)
