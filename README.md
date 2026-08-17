@@ -483,7 +483,12 @@ Maintaining this BIOS collection takes time and effort. If it helps you, conside
 - 📢 Share with friends who need BIOS files
 
 ---
-
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=archtaurus/RetroPieBIOS&type=Date)](https://star-history.com/#archtaurus/RetroPieBIOS&Date)
+<a href="https://www.star-history.com/?repos=archtaurus%2FRetroPieBIOS&type=date&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archtaurus/RetroPieBIOS&type=date&theme=dark&legend=bottom-right&sealed_token=YCF7HsoJF93MwBMCJW9jwY00aCJaq3w1tODDQe1vT3di_GxXHDxPF76ub0Tvg5mArlZvZAb-MnzRUz_a44g-zAdZuDUECP_sDsPdb4cBhQU7VWPw3pbHIw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=archtaurus/RetroPieBIOS&type=date&legend=bottom-right&sealed_token=YCF7HsoJF93MwBMCJW9jwY00aCJaq3w1tODDQe1vT3di_GxXHDxPF76ub0Tvg5mArlZvZAb-MnzRUz_a44g-zAdZuDUECP_sDsPdb4cBhQU7VWPw3pbHIw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=archtaurus/RetroPieBIOS&type=date&legend=bottom-right&sealed_token=YCF7HsoJF93MwBMCJW9jwY00aCJaq3w1tODDQe1vT3di_GxXHDxPF76ub0Tvg5mArlZvZAb-MnzRUz_a44g-zAdZuDUECP_sDsPdb4cBhQU7VWPw3pbHIw" />
+ </picture>
+</a>
